@@ -1,0 +1,18 @@
+# Core Dependencies
+openai==1.97.1
+python-dotenv==1.0.0
+requests==2.31.0
+
+# Voice Interface Dependencies
+speechrecognition==3.14.3
+pyttsx3==2.90
+pyaudio==0.2.14
+
+# macOS Voice Support (for TTS when pyttsx3 fails)
+pyobjc==11.1
+
+# Utility Dependencies
+schedule==1.2.0
+
+# Optional Dependencies (uncomment if needed)
+# flask==3.0.0  # For web interface (not currently used)
